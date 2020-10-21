@@ -1,7 +1,7 @@
 # rick-advises-morty
 See what advice Rick has for morty...
 Connects to advice api: https://api.adviceslip.com/advice
-this returns an advice slip object
+this returns an advice slip
 
 To see this working in a browser 
 Make sure you have node and npm installed
