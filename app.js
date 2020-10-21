@@ -18,29 +18,6 @@ app.get("/", function(req, res){
   });
 });
 
-
-
-
-// var asyncData = new Promise(function(resolve, reject){
-//     return resolve(asyncResponse);
-//     reject("Error");
-// });
-//
-// app.get("/getdata", async function(req, res){
-//    var data = await pullData();
-//    var filteredData = await filterByYear(data);
-//    res.json(filteredData);
-// })
-//
-// app.get("/getdata", function(req, res){
-//    pullData().then(function(data){
-//       return filterByYear(data);
-//    }).then(function(filteredData){
-//       res.json(filteredData);
-//    })
-// })
-
-
 app.listen("3000", function(){
   console.log("api server started on port 3000");
 });
