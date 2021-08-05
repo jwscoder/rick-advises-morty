@@ -1,5 +1,5 @@
 # rick-advises-morty
-See what advice Rick has for morty...
+Have a look and Seeee what advice Rick has for morty...
 Connects to advice api: https://api.adviceslip.com/advice
 this returns an advice slip
 
